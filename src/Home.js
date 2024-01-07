@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="bg-black w-full h-[88vh]">
       <div className="max-w-[930px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-gray-300 text-xl">Hello, I am</p>
+        <p className="text-gray-300 text-[18px]">Hello, I am</p>
         <h1 className="text-4xl sm:text-6xl font-bold text-green-300">
           Arkan Faujdar
         </h1>
