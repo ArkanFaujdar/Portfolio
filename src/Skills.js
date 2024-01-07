@@ -51,7 +51,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="w-full pb-[30px] bg-black text-gray-300 pt-9 px-5">
+    <div className="w-full bg-black text-gray-300 pt-9 px-5">
       <div className="max-w-[1000px] mx-auto pb-4 flex flex-col justify-center w-full h-full">
         <div className="mb-8 pl-3">
           <p className="text-3xl md:text-4xl font-bold inline border-b-4 border-green-300">
