@@ -45,9 +45,9 @@ const data = [
 function Portfolio() {
   return (
     <div className="w-full text-gray-300 bg-black px-5 pt-9">
-      <div className="max-w-[1000px] m-auto pb-10">
+      <div className="max-w-[900px] m-auto pb-10">
         <div className="mb-8 pl-3">
-          <p className="text-3xl md:text-4xl inline font-bold border-b-4 border-green-300 items-center">
+          <p className="text-3xl inline font-bold border-b-4 border-green-300 items-center">
             Portfolio
           </p>
         </div>

@@ -32,9 +32,9 @@ const Contact = () => {
     setName("");
   };
   return (
-    <div className="w-full bg-black pt-9 h-[88vh] justify-center max-w-[1000px] mx-auto items-center px-5">
+    <div className="w-full bg-black pt-9 h-[88vh] justify-center max-w-[900px] mx-auto items-center px-5">
       <div className="mb-8">
-        <p className="text-4xl font-bold inline border-b-4 border-green-300 text-gray-300">
+        <p className="text-3xl font-bold inline border-b-4 border-green-300 text-gray-300">
           Contact
         </p>
       </div>

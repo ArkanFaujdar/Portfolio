@@ -13,7 +13,7 @@ function App() {
           <Route
             path="/"
             element={
-              <div className="gradient">
+              <div>
                 <Navbar />
                 <Home />
               </div>

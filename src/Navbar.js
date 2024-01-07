@@ -8,9 +8,9 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full bg-black h-[12vh] hidden md:flex justify-between items-center px-[110px] border-b-[1px] border-gray-700 text-gray-300">
-        <img src={Logo} className="h-[100px]" alt="logo" />
-        <ul className="hidden md:flex text-[20px]">
+      <div className="w-full bg-black h-[12vh] hidden md:flex justify-between items-center px-[88px] border-b-[1px] border-gray-700 text-gray-300">
+        <img src={Logo} className="h-[90px]" alt="logo" />
+        <ul className="hidden md:flex text-[18px]">
           <NavLink to="/">
             <li className="mx-[8px] hover:scale-110">Home</li>
           </NavLink>
