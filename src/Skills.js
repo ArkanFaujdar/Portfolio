@@ -8,6 +8,10 @@ import FireBase from "./Images/firebase.png";
 import GitHub from "./Images/github.png";
 import Tailwind from "./Images/tailwind.png";
 import FramerMotion from "./Images/framer-motion.png";
+import NEXT from "./Images/next.png";
+import NET from "./Images/net.png";
+import CSharp from "./Images/csharp.png";
+import Redux from "./Images/redux.png";
 
 const skills = [
   {
@@ -24,8 +28,24 @@ const skills = [
     img: JavaScript,
   },
   {
+    name: "C#",
+    img: CSharp,
+  },
+  {
     name: "REACT",
     img: ReactImg,
+  },
+  {
+    name: "NEXT",
+    img: NEXT,
+  },
+  {
+    name: "REDUX",
+    img: Redux,
+  },
+  {
+    name: ".NET",
+    img: NET,
   },
   {
     name: "TAIWIND",
@@ -62,7 +82,7 @@ const Skills = () => {
         <div className="w-full grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-center py-8">
           {skills.map((skill) => (
             <div className="my-3 md:m-auto shadow-lg shadow-gray-800 md:w-[200px] hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={skill.img} alt="icon" />
+              <img className="w-20 mx-auto " src={skill.img} alt="icon" />
               <p className="my-4 ">{skill.name}</p>
             </div>
           ))}
