@@ -35,7 +35,7 @@ function Home() {
         />
 
         <p className="text-gray-300 py-4 max-w-[800px]">
-          I'm a skilled developer specializing in React Js and ASP.Net
+          I'm a skilled developer specializing in React JS and ASP.Net
           framework. With a focus on creating visually appealing and
           user-friendly interfaces. I bring a blend of creativity and technical
           expertise to every project. Explore my portfolio to see how I turn
